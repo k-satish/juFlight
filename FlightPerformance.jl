@@ -18,6 +18,9 @@ include("utils.jl")
 # Atmospheric model
 include("atmmodel.jl")  
 
+# Aerodynamics
+include("aerodynamics.jl")  
+
 # Subsonic Jet aircraft data from Hull
 include("sbjdata.jl")   
 
@@ -29,7 +32,7 @@ include("performance.jl") #
 
 export T∞, P∞, ρ∞, a∞
 
-export vstall
+export vstall, Cl0
 
 end #module
 
